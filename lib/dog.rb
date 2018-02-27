@@ -6,7 +6,7 @@ class Dog
     @name = name
     @breed = breed
     @id = id
-    (name,breed,id).each do |key,value|
+    # (name,breed,id).each do |key,value|
   end
 
 end
