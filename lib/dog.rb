@@ -1,7 +1,7 @@
 class Dog
-  attr_accessor :id, :name, :breed
-  # Remember, you can access your database connection anywhere in this class
-  #  with DB[:conn]
+  attr_accessor :name, :breed
+   attr_reader :id
+  
   def initialize(name,breed,id=nil)
     @name = name
     @breed = breed
