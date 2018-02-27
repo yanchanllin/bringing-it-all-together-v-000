@@ -9,9 +9,9 @@ class Dog
     @id = id
     @@all << self
   end
-  
+
   def self.all
     @@all
   end
-  
+
 end
