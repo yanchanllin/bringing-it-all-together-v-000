@@ -6,6 +6,8 @@ class Dog
     @name = name
     @breed = breed
     @id = id
+    @key = key 
+    @value = value
   end
 
 end
